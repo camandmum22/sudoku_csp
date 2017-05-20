@@ -1,0 +1,670 @@
+Solution board easy
+4|6|1|8|9|7|3|5|2|
+8|5|9|3|2|4|7|6|1|
+7|3|2|5|1|6|4|8|9|
+9|1|3|6|5|2|8|4|7|
+2|4|6|7|8|1|5|9|3|
+5|7|8|9|4|3|2|1|6|
+3|8|4|2|6|9|1|7|5|
+1|9|7|4|3|5|6|2|8|
+6|2|5|1|7|8|9|3|4|
+
+Solution board medium
+5|4|8|6|1|3|7|2|9|
+3|2|9|4|5|7|8|6|1|
+1|6|7|8|9|2|5|4|3|
+6|7|5|9|2|1|4|3|8|
+4|3|2|5|7|8|9|1|6|
+8|9|1|3|6|4|2|5|7|
+9|8|3|1|4|5|6|7|2|
+2|5|6|7|3|9|1|8|4|
+7|1|4|2|8|6|3|9|5|
+
+Solution board difficult
+8|4|1|6|2|5|9|7|3|
+7|6|2|1|3|9|5|4|8|
+5|3|9|4|7|8|2|6|1|
+2|1|7|3|9|6|4|8|5|
+6|8|3|7|5|4|1|2|9|
+9|5|4|2|8|1|7|3|6|
+4|2|5|8|1|3|6|9|7|
+3|9|6|5|4|7|8|1|2|
+1|7|8|9|6|2|3|5|4|
+
+Solution board evil
+7|6|1|8|2|5|3|4|9|
+3|5|2|9|6|4|8|7|1|
+9|4|8|7|1|3|6|5|2|
+4|8|7|5|3|2|9|1|6|
+1|9|5|6|8|7|2|3|4|
+2|3|6|4|9|1|5|8|7|
+5|2|3|1|7|9|4|6|8|
+8|1|4|2|5|6|7|9|3|
+6|7|9|3|4|8|1|2|5|
+
+50 iterations for each board and each combination of algorithms
+
+board
+0 = easy
+1 = medium
+2 = hard
+3 = evil
+
+type (combination of algorithms)
+0 = B
+1 = B+FC
+2 = B+FC+H
+
+<solved>	<board>	<type>	<# nodes>	<exec time>
+
+OK	b0	t0	r1	nodes 1570	time 0.146001911
+OK	b0	t0	r2	nodes 1570	time 0.065705286
+OK	b0	t0	r3	nodes 1570	time 0.08093594
+OK	b0	t0	r4	nodes 1570	time 0.065229328
+OK	b0	t0	r5	nodes 1570	time 0.065074524
+OK	b0	t0	r6	nodes 1570	time 0.07314571
+OK	b0	t0	r7	nodes 1570	time 0.077743215
+OK	b0	t0	r8	nodes 1570	time 0.062682761
+OK	b0	t0	r9	nodes 1570	time 0.06268832
+OK	b0	t0	r10	nodes 1570	time 0.064734554
+OK	b0	t0	r11	nodes 1570	time 0.063806158
+OK	b0	t0	r12	nodes 1570	time 0.066071341
+OK	b0	t0	r13	nodes 1570	time 0.072223728
+OK	b0	t0	r14	nodes 1570	time 0.085456043
+OK	b0	t0	r15	nodes 1570	time 0.079510204
+OK	b0	t0	r16	nodes 1570	time 0.069019886
+OK	b0	t0	r17	nodes 1570	time 0.062288908
+OK	b0	t0	r18	nodes 1570	time 0.061964333
+OK	b0	t0	r19	nodes 1570	time 0.061635054
+OK	b0	t0	r20	nodes 1570	time 0.062149927
+OK	b0	t0	r21	nodes 1570	time 0.062681905
+OK	b0	t0	r22	nodes 1570	time 0.06196861
+OK	b0	t0	r23	nodes 1570	time 0.062312856
+OK	b0	t0	r24	nodes 1570	time 0.062626741
+OK	b0	t0	r25	nodes 1570	time 0.06227779
+OK	b0	t0	r26	nodes 1570	time 0.067050626
+OK	b0	t0	r27	nodes 1570	time 0.062348778
+OK	b0	t0	r28	nodes 1570	time 0.062356475
+OK	b0	t0	r29	nodes 1570	time 0.061215544
+OK	b0	t0	r30	nodes 1570	time 0.06237358
+OK	b0	t0	r31	nodes 1570	time 0.062036603
+OK	b0	t0	r32	nodes 1570	time 0.06343882
+OK	b0	t0	r33	nodes 1570	time 0.062089631
+OK	b0	t0	r34	nodes 1570	time 0.062523253
+OK	b0	t0	r35	nodes 1570	time 0.061927557
+OK	b0	t0	r36	nodes 1570	time 0.062324402
+OK	b0	t0	r37	nodes 1570	time 0.062607924
+OK	b0	t0	r38	nodes 1570	time 0.06277513
+OK	b0	t0	r39	nodes 1570	time 0.06223802
+OK	b0	t0	r40	nodes 1570	time 0.062544207
+OK	b0	t0	r41	nodes 1570	time 0.061806536
+OK	b0	t0	r42	nodes 1570	time 0.063031283
+OK	b0	t0	r43	nodes 1570	time 0.062348778
+OK	b0	t0	r44	nodes 1570	time 0.062864078
+OK	b0	t0	r45	nodes 1570	time 0.062456114
+OK	b0	t0	r46	nodes 1570	time 0.063233127
+OK	b0	t0	r47	nodes 1570	time 0.062156342
+OK	b0	t0	r48	nodes 1570	time 0.062161046
+OK	b0	t0	r49	nodes 1570	time 0.061627785
+OK	b0	t0	r50	nodes 1570	time 0.063363555
+
+OK	b1	t0	r1	nodes 3356	time 0.156150121
+OK	b1	t0	r2	nodes 3356	time 0.141433912
+OK	b1	t0	r3	nodes 3356	time 0.143434389
+OK	b1	t0	r4	nodes 3356	time 0.143416428
+OK	b1	t0	r5	nodes 3356	time 0.13984653
+OK	b1	t0	r6	nodes 3356	time 0.142395663
+OK	b1	t0	r7	nodes 3356	time 0.14222076
+OK	b1	t0	r8	nodes 3356	time 0.141043054
+OK	b1	t0	r9	nodes 3356	time 0.142004377
+OK	b1	t0	r10	nodes 3356	time 0.140717195
+OK	b1	t0	r11	nodes 3356	time 0.144418378
+OK	b1	t0	r12	nodes 3356	time 0.141392859
+OK	b1	t0	r13	nodes 3356	time 0.141937239
+OK	b1	t0	r14	nodes 3356	time 0.142372143
+OK	b1	t0	r15	nodes 3356	time 0.141614374
+OK	b1	t0	r16	nodes 3356	time 0.141983423
+OK	b1	t0	r17	nodes 3356	time 0.141359076
+OK	b1	t0	r18	nodes 3356	time 0.141860264
+OK	b1	t0	r19	nodes 3356	time 0.14169648
+OK	b1	t0	r20	nodes 3356	time 0.141498912
+OK	b1	t0	r21	nodes 3356	time 0.141037066
+OK	b1	t0	r22	nodes 3356	time 0.142405927
+OK	b1	t0	r23	nodes 3356	time 0.141921416
+OK	b1	t0	r24	nodes 3356	time 0.14011594
+OK	b1	t0	r25	nodes 3356	time 0.141574176
+OK	b1	t0	r26	nodes 3356	time 0.142029607
+OK	b1	t0	r27	nodes 3356	time 0.142395663
+OK	b1	t0	r28	nodes 3356	time 0.141019533
+OK	b1	t0	r29	nodes 3356	time 0.141454866
+OK	b1	t0	r30	nodes 3356	time 0.141124731
+OK	b1	t0	r31	nodes 3356	time 0.140223277
+OK	b1	t0	r32	nodes 3356	time 0.141841448
+OK	b1	t0	r33	nodes 3356	time 0.14377778
+OK	b1	t0	r34	nodes 3356	time 0.141606677
+OK	b1	t0	r35	nodes 3356	time 0.141766612
+OK	b1	t0	r36	nodes 3356	time 0.141785856
+OK	b1	t0	r37	nodes 3356	time 0.142484184
+OK	b1	t0	r38	nodes 3356	time 0.142808759
+OK	b1	t0	r39	nodes 3356	time 0.142420894
+OK	b1	t0	r40	nodes 3356	time 0.143445508
+OK	b1	t0	r41	nodes 3356	time 0.143462186
+OK	b1	t0	r42	nodes 3356	time 0.143037544
+OK	b1	t0	r43	nodes 3356	time 0.14112687
+OK	b1	t0	r44	nodes 3356	time 0.140929303
+OK	b1	t0	r45	nodes 3356	time 0.141395853
+OK	b1	t0	r46	nodes 3356	time 0.141649868
+OK	b1	t0	r47	nodes 3356	time 0.143891104
+OK	b1	t0	r48	nodes 3356	time 0.143288565
+OK	b1	t0	r49	nodes 3356	time 0.143066195
+OK	b1	t0	r50	nodes 3356	time 0.142234445
+
+OK	b2	t0	r1	nodes 26116	time 1.029643241
+OK	b2	t0	r2	nodes 26116	time 1.028700733
+OK	b2	t0	r3	nodes 26116	time 1.028543791
+OK	b2	t0	r4	nodes 26116	time 1.024797707
+OK	b2	t0	r5	nodes 26116	time 1.04604305
+OK	b2	t0	r6	nodes 26116	time 1.050880458
+OK	b2	t0	r7	nodes 26116	time 1.069365843
+OK	b2	t0	r8	nodes 26116	time 1.037482221
+OK	b2	t0	r9	nodes 26116	time 1.029830973
+OK	b2	t0	r10	nodes 26116	time 1.030121337
+OK	b2	t0	r11	nodes 26116	time 1.018798842
+OK	b2	t0	r12	nodes 26116	time 1.057267617
+OK	b2	t0	r13	nodes 26116	time 1.090112135
+OK	b2	t0	r14	nodes 26116	time 1.036158262
+OK	b2	t0	r15	nodes 26116	time 1.07595399
+OK	b2	t0	r16	nodes 26116	time 1.119969193
+OK	b2	t0	r17	nodes 26116	time 1.034941641
+OK	b2	t0	r18	nodes 26116	time 1.049466696
+OK	b2	t0	r19	nodes 26116	time 1.063877573
+OK	b2	t0	r20	nodes 26116	time 1.039450198
+OK	b2	t0	r21	nodes 26116	time 1.04541528
+OK	b2	t0	r22	nodes 26116	time 1.070854868
+OK	b2	t0	r23	nodes 26116	time 1.032783366
+OK	b2	t0	r24	nodes 26116	time 1.056958437
+OK	b2	t0	r25	nodes 26116	time 1.031257137
+OK	b2	t0	r26	nodes 26116	time 1.031039897
+OK	b2	t0	r27	nodes 26116	time 1.028696029
+OK	b2	t0	r28	nodes 26116	time 1.050492593
+OK	b2	t0	r29	nodes 26116	time 1.040544088
+OK	b2	t0	r30	nodes 26116	time 1.03575543
+OK	b2	t0	r31	nodes 26116	time 1.035963689
+OK	b2	t0	r32	nodes 26116	time 1.03424374
+OK	b2	t0	r33	nodes 26116	time 1.057513506
+OK	b2	t0	r34	nodes 26116	time 1.034437031
+OK	b2	t0	r35	nodes 26116	time 1.061146268
+OK	b2	t0	r36	nodes 26116	time 1.049131858
+OK	b2	t0	r37	nodes 26116	time 1.037722979
+OK	b2	t0	r38	nodes 26116	time 1.045126199
+OK	b2	t0	r39	nodes 26116	time 1.023311248
+OK	b2	t0	r40	nodes 26116	time 1.019013942
+OK	b2	t0	r41	nodes 26116	time 1.020461487
+OK	b2	t0	r42	nodes 26116	time 1.020018457
+OK	b2	t0	r43	nodes 26116	time 1.024871688
+OK	b2	t0	r44	nodes 26116	time 1.029026163
+OK	b2	t0	r45	nodes 26116	time 1.030242786
+OK	b2	t0	r46	nodes 26116	time 1.024847313
+OK	b2	t0	r47	nodes 26116	time 1.026647657
+OK	b2	t0	r48	nodes 26116	time 1.029535905
+OK	b2	t0	r49	nodes 26116	time 1.031622336
+OK	b2	t0	r50	nodes 26116	time 1.026966245
+
+OK	b3	t0	r1	nodes 18035	time 0.687172912
+OK	b3	t0	r2	nodes 18035	time 0.683345578
+OK	b3	t0	r3	nodes 18035	time 0.687287946
+OK	b3	t0	r4	nodes 18035	time 0.683735153
+OK	b3	t0	r5	nodes 18035	time 0.677226975
+OK	b3	t0	r6	nodes 18035	time 0.680733155
+OK	b3	t0	r7	nodes 18035	time 0.679396367
+OK	b3	t0	r8	nodes 18035	time 0.683803576
+OK	b3	t0	r9	nodes 18035	time 0.685573557
+OK	b3	t0	r10	nodes 18035	time 0.685160889
+OK	b3	t0	r11	nodes 18035	time 0.683218998
+OK	b3	t0	r12	nodes 18035	time 0.675692619
+OK	b3	t0	r13	nodes 18035	time 0.701047536
+OK	b3	t0	r14	nodes 18035	time 0.678198134
+OK	b3	t0	r15	nodes 18035	time 0.676261802
+OK	b3	t0	r16	nodes 18035	time 0.678810508
+OK	b3	t0	r17	nodes 18035	time 0.679448111
+OK	b3	t0	r18	nodes 18035	time 0.682069942
+OK	b3	t0	r19	nodes 18035	time 0.681651715
+OK	b3	t0	r20	nodes 18035	time 0.694265669
+OK	b3	t0	r21	nodes 18035	time 0.689396615
+OK	b3	t0	r22	nodes 18035	time 0.696368779
+OK	b3	t0	r23	nodes 18035	time 0.715161205
+OK	b3	t0	r24	nodes 18035	time 0.686488269
+OK	b3	t0	r25	nodes 18035	time 0.68174494
+OK	b3	t0	r26	nodes 18035	time 0.686474585
+OK	b3	t0	r27	nodes 18035	time 0.684270981
+OK	b3	t0	r28	nodes 18035	time 0.682590375
+OK	b3	t0	r29	nodes 18035	time 0.68431973
+OK	b3	t0	r30	nodes 18035	time 0.681314311
+OK	b3	t0	r31	nodes 18035	time 0.680804142
+OK	b3	t0	r32	nodes 18035	time 0.68682995
+OK	b3	t0	r33	nodes 18035	time 0.679458375
+OK	b3	t0	r34	nodes 18035	time 0.707392358
+OK	b3	t0	r35	nodes 18035	time 0.684886775
+OK	b3	t0	r36	nodes 18035	time 0.679826568
+OK	b3	t0	r37	nodes 18035	time 0.679962129
+OK	b3	t0	r38	nodes 18035	time 0.685848527
+OK	b3	t0	r39	nodes 18035	time 0.699576042
+OK	b3	t0	r40	nodes 18035	time 0.689219147
+OK	b3	t0	r41	nodes 18035	time 0.687408539
+OK	b3	t0	r42	nodes 18035	time 0.689550992
+OK	b3	t0	r43	nodes 18035	time 0.689973923
+OK	b3	t0	r44	nodes 18035	time 0.679276201
+OK	b3	t0	r45	nodes 18035	time 0.690222379
+OK	b3	t0	r46	nodes 18035	time 0.689050658
+OK	b3	t0	r47	nodes 18035	time 0.684204697
+OK	b3	t0	r48	nodes 18035	time 0.688221474
+OK	b3	t0	r49	nodes 18035	time 0.69149331
+OK	b3	t0	r50	nodes 18035	time 0.690381887
+
+OK	b0	t1	r1	nodes 141	time 0.01173046
+OK	b0	t1	r2	nodes 141	time 0.007521674
+OK	b0	t1	r3	nodes 141	time 0.007543912
+OK	b0	t1	r4	nodes 141	time 0.008044245
+OK	b0	t1	r5	nodes 141	time 0.004629578
+OK	b0	t1	r6	nodes 141	time 0.003938092
+OK	b0	t1	r7	nodes 141	time 0.003849572
+OK	b0	t1	r8	nodes 141	time 0.003902171
+OK	b0	t1	r9	nodes 141	time 0.003699899
+OK	b0	t1	r10	nodes 141	time 0.004307141
+OK	b0	t1	r11	nodes 141	time 0.003601971
+OK	b0	t1	r12	nodes 141	time 0.003598123
+OK	b0	t1	r13	nodes 141	time 0.003559207
+OK	b0	t1	r14	nodes 141	time 0.003620787
+OK	b0	t1	r15	nodes 141	time 0.003606248
+OK	b0	t1	r16	nodes 141	time 0.003498911
+OK	b0	t1	r17	nodes 141	time 0.003512595
+OK	b0	t1	r18	nodes 141	time 0.003531411
+OK	b0	t1	r19	nodes 141	time 0.003561774
+OK	b0	t1	r20	nodes 141	time 0.003515589
+OK	b0	t1	r21	nodes 141	time 0.003551083
+OK	b0	t1	r22	nodes 141	time 0.003562628
+OK	b0	t1	r23	nodes 141	time 0.003483088
+OK	b0	t1	r24	nodes 141	time 0.004045857
+OK	b0	t1	r25	nodes 141	time 0.003470687
+OK	b0	t1	r26	nodes 141	time 0.003505753
+OK	b0	t1	r27	nodes 141	time 0.003464273
+OK	b0	t1	r28	nodes 141	time 0.003491214
+OK	b0	t1	r29	nodes 141	time 0.00350447
+OK	b0	t1	r30	nodes 141	time 0.003488647
+OK	b0	t1	r31	nodes 141	time 0.003492496
+OK	b0	t1	r32	nodes 141	time 0.003493779
+OK	b0	t1	r33	nodes 141	time 0.003487364
+OK	b0	t1	r34	nodes 141	time 0.003476246
+OK	b0	t1	r35	nodes 141	time 0.004054409
+OK	b0	t1	r36	nodes 141	time 0.003735393
+OK	b0	t1	r37	nodes 141	time 0.004006086
+OK	b0	t1	r38	nodes 141	time 0.003584438
+OK	b0	t1	r39	nodes 141	time 0.003547234
+OK	b0	t1	r40	nodes 141	time 0.003559207
+OK	b0	t1	r41	nodes 141	time 0.003698189
+OK	b0	t1	r42	nodes 141	time 0.003522858
+OK	b0	t1	r43	nodes 141	time 0.003489075
+OK	b0	t1	r44	nodes 141	time 0.003501904
+OK	b0	t1	r45	nodes 141	time 0.003483516
+OK	b0	t1	r46	nodes 141	time 0.003490359
+OK	b0	t1	r47	nodes 141	time 0.003478385
+OK	b0	t1	r48	nodes 141	time 0.004583821
+OK	b0	t1	r49	nodes 141	time 0.006867393
+OK	b0	t1	r50	nodes 141	time 0.006615944
+
+OK	b1	t1	r1	nodes 99	time 0.003237626
+OK	b1	t1	r2	nodes 99	time 0.002901932
+OK	b1	t1	r3	nodes 99	time 0.00237594
+OK	b1	t1	r4	nodes 99	time 0.002440941
+OK	b1	t1	r5	nodes 99	time 0.0033997
+OK	b1	t1	r6	nodes 99	time 0.003393285
+OK	b1	t1	r7	nodes 99	time 0.003457002
+OK	b1	t1	r8	nodes 99	time 0.004245135
+OK	b1	t1	r9	nodes 99	time 0.003839308
+OK	b1	t1	r10	nodes 99	time 0.003182888
+OK	b1	t1	r11	nodes 99	time 0.00255683
+OK	b1	t1	r12	nodes 99	time 0.003276113
+OK	b1	t1	r13	nodes 99	time 0.004926785
+OK	b1	t1	r14	nodes 99	time 0.003943652
+OK	b1	t1	r15	nodes 99	time 0.002371237
+OK	b1	t1	r16	nodes 99	time 0.002839497
+OK	b1	t1	r17	nodes 99	time 0.002348145
+OK	b1	t1	r18	nodes 99	time 0.002337881
+OK	b1	t1	r19	nodes 99	time 0.002349
+OK	b1	t1	r20	nodes 99	time 0.002828806
+OK	b1	t1	r21	nodes 99	time 0.002353704
+OK	b1	t1	r22	nodes 99	time 0.002328901
+OK	b1	t1	r23	nodes 99	time 0.002360546
+OK	b1	t1	r24	nodes 99	time 0.002343013
+OK	b1	t1	r25	nodes 99	time 0.002321631
+OK	b1	t1	r26	nodes 99	time 0.002329756
+OK	b1	t1	r27	nodes 99	time 0.002340447
+OK	b1	t1	r28	nodes 99	time 0.002312223
+OK	b1	t1	r29	nodes 99	time 0.00232548
+OK	b1	t1	r30	nodes 99	time 0.002364395
+OK	b1	t1	r31	nodes 99	time 0.002329329
+OK	b1	t1	r32	nodes 99	time 0.002329329
+OK	b1	t1	r33	nodes 99	time 0.002321631
+OK	b1	t1	r34	nodes 99	time 0.002323342
+OK	b1	t1	r35	nodes 99	time 0.002323342
+OK	b1	t1	r36	nodes 99	time 0.002726175
+OK	b1	t1	r37	nodes 99	time 0.002415284
+OK	b1	t1	r38	nodes 99	time 0.002343013
+OK	b1	t1	r39	nodes 99	time 0.002810846
+OK	b1	t1	r40	nodes 99	time 0.002350283
+OK	b1	t1	r41	nodes 99	time 0.002313934
+OK	b1	t1	r42	nodes 99	time 0.002323769
+OK	b1	t1	r43	nodes 99	time 0.002344724
+OK	b1	t1	r44	nodes 99	time 0.00231821
+OK	b1	t1	r45	nodes 99	time 0.002337454
+OK	b1	t1	r46	nodes 99	time 0.002341303
+OK	b1	t1	r47	nodes 99	time 0.002322487
+OK	b1	t1	r48	nodes 99	time 0.002317782
+OK	b1	t1	r49	nodes 99	time 0.002341302
+OK	b1	t1	r50	nodes 99	time 0.002483705
+
+OK	b2	t1	r1	nodes 99	time 0.002857886
+OK	b2	t1	r2	nodes 99	time 0.002559396
+OK	b2	t1	r3	nodes 99	time 0.002678707
+OK	b2	t1	r4	nodes 99	time 0.00263637
+OK	b2	t1	r5	nodes 99	time 0.002580351
+OK	b2	t1	r6	nodes 99	time 0.003135848
+OK	b2	t1	r7	nodes 99	time 0.002591469
+OK	b2	t1	r8	nodes 99	time 0.00257137
+OK	b2	t1	r9	nodes 99	time 0.002559824
+OK	b2	t1	r10	nodes 99	time 0.002558114
+OK	b2	t1	r11	nodes 99	time 0.002641075
+OK	b2	t1	r12	nodes 99	time 0.002572226
+OK	b2	t1	r13	nodes 99	time 0.002558969
+OK	b2	t1	r14	nodes 99	time 0.002543574
+OK	b2	t1	r15	nodes 99	time 0.002546139
+OK	b2	t1	r16	nodes 99	time 0.00256068
+OK	b2	t1	r17	nodes 99	time 0.002563672
+OK	b2	t1	r18	nodes 99	time 0.00264193
+OK	b2	t1	r19	nodes 99	time 0.002631667
+OK	b2	t1	r20	nodes 99	time 0.002556403
+OK	b2	t1	r21	nodes 99	time 0.002557686
+OK	b2	t1	r22	nodes 99	time 0.004394379
+OK	b2	t1	r23	nodes 99	time 0.002535449
+OK	b2	t1	r24	nodes 99	time 0.002514922
+OK	b2	t1	r25	nodes 99	time 0.002570087
+OK	b2	t1	r26	nodes 99	time 0.002526469
+OK	b2	t1	r27	nodes 99	time 0.002520054
+OK	b2	t1	r28	nodes 99	time 0.002475152
+OK	b2	t1	r29	nodes 99	time 0.002563245
+OK	b2	t1	r30	nodes 99	time 0.002542291
+OK	b2	t1	r31	nodes 99	time 0.003268843
+OK	b2	t1	r32	nodes 99	time 0.004101021
+OK	b2	t1	r33	nodes 99	time 0.004622736
+OK	b2	t1	r34	nodes 99	time 0.003927401
+OK	b2	t1	r35	nodes 99	time 0.003463417
+OK	b2	t1	r36	nodes 99	time 0.004969121
+OK	b2	t1	r37	nodes 99	time 0.005213728
+OK	b2	t1	r38	nodes 99	time 0.002688114
+OK	b2	t1	r39	nodes 99	time 0.003016111
+OK	b2	t1	r40	nodes 99	time 0.002543574
+OK	b2	t1	r41	nodes 99	time 0.002557686
+OK	b2	t1	r42	nodes 99	time 0.002543574
+OK	b2	t1	r43	nodes 99	time 0.002537587
+OK	b2	t1	r44	nodes 99	time 0.002546568
+OK	b2	t1	r45	nodes 99	time 0.002565383
+OK	b2	t1	r46	nodes 99	time 0.002714628
+OK	b2	t1	r47	nodes 99	time 0.002557258
+OK	b2	t1	r48	nodes 99	time 0.002543574
+OK	b2	t1	r49	nodes 99	time 0.002543146
+OK	b2	t1	r50	nodes 99	time 0.00255341
+
+OK	b3	t1	r1	nodes 1656	time 0.057712785
+OK	b3	t1	r2	nodes 1656	time 0.044492872
+OK	b3	t1	r3	nodes 1656	time 0.042751114
+OK	b3	t1	r4	nodes 1656	time 0.040969585
+OK	b3	t1	r5	nodes 1656	time 0.051116513
+OK	b3	t1	r6	nodes 1656	time 0.045396465
+OK	b3	t1	r7	nodes 1656	time 0.043446021
+OK	b3	t1	r8	nodes 1656	time 0.041683309
+OK	b3	t1	r9	nodes 1656	time 0.043647864
+OK	b3	t1	r10	nodes 1656	time 0.056151489
+OK	b3	t1	r11	nodes 1656	time 0.041681171
+OK	b3	t1	r12	nodes 1656	time 0.041676894
+OK	b3	t1	r13	nodes 1656	time 0.042630948
+OK	b3	t1	r14	nodes 1656	time 0.051986323
+OK	b3	t1	r15	nodes 1656	time 0.054962663
+OK	b3	t1	r16	nodes 1656	time 0.041976666
+OK	b3	t1	r17	nodes 1656	time 0.0450411
+OK	b3	t1	r18	nodes 1656	time 0.043402402
+OK	b3	t1	r19	nodes 1656	time 0.042476572
+OK	b3	t1	r20	nodes 1656	time 0.041914659
+OK	b3	t1	r21	nodes 1656	time 0.042639928
+OK	b3	t1	r22	nodes 1656	time 0.044879454
+OK	b3	t1	r23	nodes 1656	time 0.041857784
+OK	b3	t1	r24	nodes 1656	time 0.042269169
+OK	b3	t1	r25	nodes 1656	time 0.049061726
+OK	b3	t1	r26	nodes 1656	time 0.044469352
+OK	b3	t1	r27	nodes 1656	time 0.045394327
+OK	b3	t1	r28	nodes 1656	time 0.041904396
+OK	b3	t1	r29	nodes 1656	time 0.044112276
+OK	b3	t1	r30	nodes 1656	time 0.043362205
+OK	b3	t1	r31	nodes 1656	time 0.042027555
+OK	b3	t1	r32	nodes 1656	time 0.049739527
+OK	b3	t1	r33	nodes 1656	time 0.045857455
+OK	b3	t1	r34	nodes 1656	time 0.041444261
+OK	b3	t1	r35	nodes 1656	time 0.041994628
+OK	b3	t1	r36	nodes 1656	time 0.041243273
+OK	b3	t1	r37	nodes 1656	time 0.041220607
+OK	b3	t1	r38	nodes 1656	time 0.041453669
+OK	b3	t1	r39	nodes 1656	time 0.044289318
+OK	b3	t1	r40	nodes 1656	time 0.043806945
+OK	b3	t1	r41	nodes 1656	time 0.041537058
+OK	b3	t1	r42	nodes 1656	time 0.041297154
+OK	b3	t1	r43	nodes 1656	time 0.041622157
+OK	b3	t1	r44	nodes 1656	time 0.041135936
+OK	b3	t1	r45	nodes 1656	time 0.040948204
+OK	b3	t1	r46	nodes 1656	time 0.0414263
+OK	b3	t1	r47	nodes 1656	time 0.043670957
+OK	b3	t1	r48	nodes 1656	time 0.045440083
+OK	b3	t1	r49	nodes 1656	time 0.040798959
+OK	b3	t1	r50	nodes 1656	time 0.041607617
+
+OK	b0	t2	r1	nodes 68	time 0.014886835
+OK	b0	t2	r2	nodes 68	time 0.013834852
+OK	b0	t2	r3	nodes 68	time 0.011987469
+OK	b0	t2	r4	nodes 68	time 0.008521058
+OK	b0	t2	r5	nodes 68	time 0.008241812
+OK	b0	t2	r6	nodes 68	time 0.008322208
+OK	b0	t2	r7	nodes 68	time 0.008242239
+OK	b0	t2	r8	nodes 68	time 0.00826576
+OK	b0	t2	r9	nodes 68	time 0.008278588
+OK	b0	t2	r10	nodes 68	time 0.004618459
+OK	b0	t2	r11	nodes 68	time 0.003455292
+OK	b0	t2	r12	nodes 68	time 0.003415949
+OK	b0	t2	r13	nodes 68	time 0.003329994
+OK	b0	t2	r14	nodes 68	time 0.003312462
+OK	b0	t2	r15	nodes 68	time 0.003294073
+OK	b0	t2	r16	nodes 68	time 0.003262428
+OK	b0	t2	r17	nodes 68	time 0.003238908
+OK	b0	t2	r18	nodes 68	time 0.003232922
+OK	b0	t2	r19	nodes 68	time 0.003221376
+OK	b0	t2	r20	nodes 68	time 0.003216244
+OK	b0	t2	r21	nodes 68	time 0.003187164
+OK	b0	t2	r22	nodes 68	time 0.003227363
+OK	b0	t2	r23	nodes 68	time 0.003179895
+OK	b0	t2	r24	nodes 68	time 0.00327312
+OK	b0	t2	r25	nodes 68	time 0.003198711
+OK	b0	t2	r26	nodes 68	time 0.003259435
+OK	b0	t2	r27	nodes 68	time 0.003212823
+OK	b0	t2	r28	nodes 68	time 0.003129862
+OK	b0	t2	r29	nodes 68	time 0.003068709
+OK	b0	t2	r30	nodes 68	time 0.003078546
+OK	b0	t2	r31	nodes 68	time 0.003081967
+OK	b0	t2	r32	nodes 68	time 0.003069565
+OK	b0	t2	r33	nodes 68	time 0.003063579
+OK	b0	t2	r34	nodes 68	time 0.003073842
+OK	b0	t2	r35	nodes 68	time 0.003064433
+OK	b0	t2	r36	nodes 68	time 0.003062295
+OK	b0	t2	r37	nodes 68	time 0.003057164
+OK	b0	t2	r38	nodes 68	time 0.003072559
+OK	b0	t2	r39	nodes 68	time 0.003064434
+OK	b0	t2	r40	nodes 68	time 0.003108908
+OK	b0	t2	r41	nodes 68	time 0.003085387
+OK	b0	t2	r42	nodes 68	time 0.003081966
+OK	b0	t2	r43	nodes 68	time 0.003070848
+OK	b0	t2	r44	nodes 68	time 0.003062296
+OK	b0	t2	r45	nodes 68	time 0.003066572
+OK	b0	t2	r46	nodes 68	time 0.003072986
+OK	b0	t2	r47	nodes 68	time 0.003086242
+OK	b0	t2	r48	nodes 68	time 0.003075125
+OK	b0	t2	r49	nodes 68	time 0.003067427
+OK	b0	t2	r50	nodes 68	time 0.003053314
+
+OK	b1	t2	r1	nodes 45	time 0.001815739
+OK	b1	t2	r2	nodes 45	time 0.001982516
+OK	b1	t2	r3	nodes 45	time 0.001709685
+OK	b1	t2	r4	nodes 45	time 0.001698139
+OK	b1	t2	r5	nodes 45	time 0.001709257
+OK	b1	t2	r6	nodes 45	time 0.00171781
+OK	b1	t2	r7	nodes 45	time 0.001719521
+OK	b1	t2	r8	nodes 45	time 0.001693436
+OK	b1	t2	r9	nodes 45	time 0.001691297
+OK	b1	t2	r10	nodes 45	time 0.001690014
+OK	b1	t2	r11	nodes 45	time 0.001705409
+OK	b1	t2	r12	nodes 45	time 0.00170883
+OK	b1	t2	r13	nodes 45	time 0.00169087
+OK	b1	t2	r14	nodes 45	time 0.001691725
+OK	b1	t2	r15	nodes 45	time 0.001696002
+OK	b1	t2	r16	nodes 45	time 0.001696857
+OK	b1	t2	r17	nodes 45	time 0.00173406
+OK	b1	t2	r18	nodes 45	time 0.002213011
+OK	b1	t2	r19	nodes 45	time 0.00201801
+OK	b1	t2	r20	nodes 45	time 0.001791364
+OK	b1	t2	r21	nodes 45	time 0.001799061
+OK	b1	t2	r22	nodes 45	time 0.001787942
+OK	b1	t2	r23	nodes 45	time 0.002700943
+OK	b1	t2	r24	nodes 45	time 0.002715911
+OK	b1	t2	r25	nodes 45	time 0.002387915
+OK	b1	t2	r26	nodes 45	time 0.001709257
+OK	b1	t2	r27	nodes 45	time 0.001693435
+OK	b1	t2	r28	nodes 45	time 0.001689587
+OK	b1	t2	r29	nodes 45	time 0.00169258
+OK	b1	t2	r30	nodes 45	time 0.001687021
+OK	b1	t2	r31	nodes 45	time 0.001690441
+OK	b1	t2	r32	nodes 45	time 0.001677185
+OK	b1	t2	r33	nodes 45	time 0.001686165
+OK	b1	t2	r34	nodes 45	time 0.001686593
+OK	b1	t2	r35	nodes 45	time 0.001689586
+OK	b1	t2	r36	nodes 45	time 0.001699422
+OK	b1	t2	r37	nodes 45	time 0.001690869
+OK	b1	t2	r38	nodes 45	time 0.001686166
+OK	b1	t2	r39	nodes 45	time 0.001693863
+OK	b1	t2	r40	nodes 45	time 0.001677185
+OK	b1	t2	r41	nodes 45	time 0.001689159
+OK	b1	t2	r42	nodes 45	time 0.00174689
+OK	b1	t2	r43	nodes 45	time 0.001685738
+OK	b1	t2	r44	nodes 45	time 0.001703699
+OK	b1	t2	r45	nodes 45	time 0.001695573
+OK	b1	t2	r46	nodes 45	time 0.001689587
+OK	b1	t2	r47	nodes 45	time 0.001756725
+OK	b1	t2	r48	nodes 45	time 0.001737054
+OK	b1	t2	r49	nodes 45	time 0.001719948
+OK	b1	t2	r50	nodes 45	time 0.001684027
+
+OK	b2	t2	r1	nodes 38	time 0.001554026
+OK	b2	t2	r2	nodes 38	time 0.001471064
+OK	b2	t2	r3	nodes 38	time 0.001468927
+OK	b2	t2	r4	nodes 38	time 0.001428301
+OK	b2	t2	r5	nodes 38	time 0.001421459
+OK	b2	t2	r6	nodes 38	time 0.001438565
+OK	b2	t2	r7	nodes 38	time 0.00143215
+OK	b2	t2	r8	nodes 38	time 0.001440275
+OK	b2	t2	r9	nodes 38	time 0.001425308
+OK	b2	t2	r10	nodes 38	time 0.001411624
+OK	b2	t2	r11	nodes 38	time 0.001411623
+OK	b2	t2	r12	nodes 38	time 0.001444979
+OK	b2	t2	r13	nodes 38	time 0.001417611
+OK	b2	t2	r14	nodes 38	time 0.001409913
+OK	b2	t2	r15	nodes 38	time 0.001406064
+OK	b2	t2	r16	nodes 38	time 0.001413334
+OK	b2	t2	r17	nodes 38	time 0.001408203
+OK	b2	t2	r18	nodes 38	time 0.001402216
+OK	b2	t2	r19	nodes 38	time 0.001411623
+OK	b2	t2	r20	nodes 38	time 0.00140692
+OK	b2	t2	r21	nodes 38	time 0.001406492
+OK	b2	t2	r22	nodes 38	time 0.001427019
+OK	b2	t2	r23	nodes 38	time 0.001403927
+OK	b2	t2	r24	nodes 38	time 0.001396656
+OK	b2	t2	r25	nodes 38	time 0.001406492
+OK	b2	t2	r26	nodes 38	time 0.001410341
+OK	b2	t2	r27	nodes 38	time 0.001423597
+OK	b2	t2	r28	nodes 38	time 0.00140863
+OK	b2	t2	r29	nodes 38	time 0.001409058
+OK	b2	t2	r30	nodes 38	time 0.001409485
+OK	b2	t2	r31	nodes 38	time 0.001402643
+OK	b2	t2	r32	nodes 38	time 0.001459519
+OK	b2	t2	r33	nodes 38	time 0.001428301
+OK	b2	t2	r34	nodes 38	time 0.001430011
+OK	b2	t2	r35	nodes 38	time 0.001474914
+OK	b2	t2	r36	nodes 38	time 0.001430867
+OK	b2	t2	r37	nodes 38	time 0.001411624
+OK	b2	t2	r38	nodes 38	time 0.001543336
+OK	b2	t2	r39	nodes 38	time 0.001420176
+OK	b2	t2	r40	nodes 38	time 0.001417183
+OK	b2	t2	r41	nodes 38	time 0.001398795
+OK	b2	t2	r42	nodes 38	time 0.001405209
+OK	b2	t2	r43	nodes 38	time 0.001402215
+OK	b2	t2	r44	nodes 38	time 0.001421887
+OK	b2	t2	r45	nodes 38	time 0.00140136
+OK	b2	t2	r46	nodes 38	time 0.001396229
+OK	b2	t2	r47	nodes 38	time 0.001444979
+OK	b2	t2	r48	nodes 38	time 0.001406919
+OK	b2	t2	r49	nodes 38	time 0.001411196
+OK	b2	t2	r50	nodes 38	time 0.001415472
+
+OK	b3	t2	r1	nodes 415	time 0.018905751
+OK	b3	t2	r2	nodes 415	time 0.019001113
+OK	b3	t2	r3	nodes 415	time 0.018879665
+OK	b3	t2	r4	nodes 415	time 0.01884246
+OK	b3	t2	r5	nodes 415	time 0.018803118
+OK	b3	t2	r6	nodes 415	time 0.018702196
+OK	b3	t2	r7	nodes 415	time 0.018821506
+OK	b3	t2	r8	nodes 415	time 0.01880825
+OK	b3	t2	r9	nodes 415	time 0.018991705
+OK	b3	t2	r10	nodes 415	time 0.018904039
+OK	b3	t2	r11	nodes 415	time 0.018915586
+OK	b3	t2	r12	nodes 415	time 0.019931219
+OK	b3	t2	r13	nodes 415	time 0.01911016
+OK	b3	t2	r14	nodes 415	time 0.019149502
+OK	b3	t2	r15	nodes 415	time 0.019068251
+OK	b3	t2	r16	nodes 415	time 0.019090488
+OK	b3	t2	r17	nodes 415	time 0.019108449
+OK	b3	t2	r18	nodes 415	time 0.019239733
+OK	b3	t2	r19	nodes 415	time 0.018978448
+OK	b3	t2	r20	nodes 415	time 0.019080226
+OK	b3	t2	r21	nodes 415	time 0.018890356
+OK	b3	t2	r22	nodes 415	time 0.019145653
+OK	b3	t2	r23	nodes 415	time 0.019005816
+OK	b3	t2	r24	nodes 415	time 0.019719112
+OK	b3	t2	r25	nodes 415	time 0.018975455
+OK	b3	t2	r26	nodes 415	time 0.019122133
+OK	b3	t2	r27	nodes 415	time 0.019178582
+OK	b3	t2	r28	nodes 415	time 0.019200391
+OK	b3	t2	r29	nodes 415	time 0.019128975
+OK	b3	t2	r30	nodes 415	time 0.019102462
+OK	b3	t2	r31	nodes 415	time 0.019979114
+OK	b3	t2	r32	nodes 415	time 0.023572532
+OK	b3	t2	r33	nodes 415	time 0.019080653
+OK	b3	t2	r34	nodes 415	time 0.019436018
+OK	b3	t2	r35	nodes 415	time 0.019264108
+OK	b3	t2	r36	nodes 415	time 0.018905323
+OK	b3	t2	r37	nodes 415	time 0.018962198
+OK	b3	t2	r38	nodes 415	time 0.018675683
+OK	b3	t2	r39	nodes 415	time 0.019344931
+OK	b3	t2	r40	nodes 415	time 0.019028054
+OK	b3	t2	r41	nodes 415	time 0.018992987
+OK	b3	t2	r42	nodes 415	time 0.018861704
+OK	b3	t2	r43	nodes 415	time 0.019481774
+OK	b3	t2	r44	nodes 415	time 0.01933253
+OK	b3	t2	r45	nodes 415	time 0.019184996
+OK	b3	t2	r46	nodes 415	time 0.019568157
+OK	b3	t2	r47	nodes 415	time 0.021494653
+OK	b3	t2	r48	nodes 415	time 0.019713553
+OK	b3	t2	r49	nodes 415	time 0.019146081
+OK	b3	t2	r50	nodes 415	time 0.018935685
