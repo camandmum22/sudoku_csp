@@ -1,4 +1,4 @@
-# Sudoku CSP Application
+# Sudoku CSP Solver
 Sudoku solver bot using the apporach of Constraint Satisfaction Problems
 
 ## Variables
